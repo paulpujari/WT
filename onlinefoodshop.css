@@ -1,0 +1,115 @@
+/* onlinefoodshop.css */
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content h1 {
+    font-size: 46px;
+    color: rgb(245, 10, 10);
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#top1 {
+    font-size: 21px;
+    color: black;
+}
+
+/* Navigation bar styling */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+}
+
+#navcontent {
+    list-style-type: none;
+}
+
+#navcontent li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#navcontent a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Welcome section styling */
+#welcome-section {
+    text-align: center;
+    padding: 50px 0;
+    background: url("./1.jpg") no-repeat center/cover;
+    color: black;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.specials {
+    display: flex;
+    justify-content: center;
+}
+
+/* Featured Products section styling */
+#featured-products {
+    text-align: center;
+    padding: 50px 0;
+    background-color: lightgray;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button Styling */
+.btn {
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: gray;
+    padding: 20px 0;
+}
